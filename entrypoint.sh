@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd /home/runner
-
 echo mypasswd | sudo -S chown nonroot /home/nonroot/
 echo mypasswd | sudo -S chown -R nonroot /opt/
 mkdir .ssh/
